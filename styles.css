@@ -1,0 +1,47 @@
+/*-----Global Reset------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.1);
+  /*overflow: hidden;*/
+  width: 320px;
+  text-align: center;
+}
+
+.qr-code-image {
+  width: 85%;
+  border-radius: 12px;
+}
+
+.text {
+  padding: 20px 10px;
+}
+
+.text h1 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #1f3251;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 15px;
+  color: #7b879d;
+  font-weight: 400;
+}
